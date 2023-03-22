@@ -1,0 +1,57 @@
+.body-container {
+    background-image: linear-gradient(to bottom, rgb(147, 54, 54), rgb(36, 70, 125));
+    width: 100% !important;
+    max-width: 100% !important;
+    height: 100vh;
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+
+.gender-body img {
+    width: 25%;
+}
+
+input {
+    padding-right:20px;
+    padding-top: 15px;
+    padding-bottom: 7px;
+    padding-left: 30px;
+    background-color: transparent;
+    border: 2px solid rgb(255, 255, 255);
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    outline: none;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-size: 20px !important;
+}
+
+input::placeholder {
+    font-size: 20px;
+    color: white;
+
+}
+
+
+button {
+    background-color: transparent;
+    color: white;
+    padding: 10px 20px;
+    border: 2px solid white;
+    border-left: none;
+    border-bottom-right-radius: 20px !important;
+    border-top-right-radius: 20px !important;
+
+}
+
+button:hover {
+    background-color: rgb(93, 93, 184);
+    background-image: linear-gradient(to bottom, rgb(147, 54, 54), rgb(36, 70, 125));
+    
+}
+.newElement {
+    color: white;
+    background-color: rgb(233, 85, 85);
+    font-weight: normal;
+}
